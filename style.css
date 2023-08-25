@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.main {
+    height: 650px;
+    background-image: url(background2.jpeg);
+    background-size: cover;
+
+}
+
+.header {
+    height: 80px;
+    margin: 10px;
+    background-color: transparent;
+
+}
+
+#logoicon {
+    height: 70px;
+    width: 150px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+.menu {
+    margin-left: 70px;
+    margin-top: 30px;
+    float: left;
+    height: 70px;
+    width: 900px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ef67b4;
+
+}
+
+.packagedisplay {
+    margin-top: 20px;
+    height: 620px;
+    align-content: center;
+    justify-content: center;
+    background-color: #f097ca;
+}
+
+#ourpackages {
+    height: 80px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 52px;
+    font-family: serif;
+    font-weight: bold;
+    color: bisque;
+
+
+}
+
+.packages {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+#package1,
+#package2,
+#package3 {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(252, 234, 211);
+    border-radius: 25px;
+
+}
+
+#pckgtitle1,
+#pckgtitle2,
+#pckgtitle3 {
+    border-radius: 25px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 70px;
+    padding-top: 40px;
+}
+
+.packages p {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    height: 300px;
+    background-color: rgb(209, 202, 202);
+    gap: 130px;
+}
+
+#pagename h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    font-style: oblique;
+    font-weight: lighter;
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+#pagename h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 200px;
+    padding-top: 15px;
+}
+
+.getintouch {
+    margin-top: 50px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+#servicefoot {
+    margin-top: 50px;
+    line-height: 30px;
+
+}
+
+#servicefoot ul li {
+    list-style: square;
+}
+
+#servicefoot p a {
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.services {
+    background-color: #f097ca;
+    color: bisque;
+    display: flex;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.offer {
+    margin-top: 15px;
+    background-color: #f097ca;
+    color: bisque;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#servicepic {
+    height: 80px;
+    width: 80px;
+}
+
+#servicename {
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
